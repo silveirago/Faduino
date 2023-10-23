@@ -24,7 +24,7 @@
 // "DEBUG" for debugging with the serial monitor
 
 #define ATMEGA32U4 1  //* Put the microcontroller you are using, like in the lines above, followed by "1," e.g., "ATMEGA328 1," "DEBUG 1," etc.
-#define DEBUG 1
+//#define DEBUG 1
 
 /////////////////////////////////////////////
 // Using Buttons

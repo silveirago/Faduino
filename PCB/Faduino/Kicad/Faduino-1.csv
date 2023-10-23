@@ -1,0 +1,21 @@
+Comment,Designator,Footprint,LCSC Part #
+"100nF Unpolarized capacitor, small symbol","C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23,C24",C_0603_1608Metric,C14663
+"10nF Unpolarized capacitor, small symbol","C_enc_1,C_enc_2",C_0603_1608Metric,C57112
+"100nF Unpolarized capacitor, small symbol","C_mux_1,C_mux_2",C_0603_1608Metric,C14663
+330nF ,C_pwr_1,C_0603_1608Metric,C1615
+100nF ,C_pwr_2,C_0603_1608Metric,C14663
+WS2812B RGB LED with integrated controller,"D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24",WS2812B-mini-V3-2,C527089
+WS2812B RGB LED with integrated controller,D_1,WS2812B-mini-V3,C527089
+"1N4007 1000V 1A General Purpose Rectifier Diode, DO-41",Diode1,D_SMA_Handsoldering,C727081
+Rotary_Encoder_Switch ,Encoder1,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles,
+"Conn_01x06 Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Extra_pins1,PinSocket_1x06_P2.54mm_Vertical,
+L293DD ,L293DD1,SOP-20_7.5x12.8mm_P1.27mm,C5199946
+"Conn_01x06_Female Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",mtr_fdr1,PinHeader_1x06_P2.54mm_Vertical,
+CD74HC4067M_2 ,"Mux_1,Mux_2",SSOP-24_5.3x8.2mm_P0.65mm,C97702
+Jack-DC DC Barrel Jack,Power_jack1,BarrelJack_Horizontal,
+"1M Resistor, small symbol",R1,R_0603_1608Metric,C22935
+"10k Resistor, small US symbol","R2,R3,R4,R5",R_0603_1608Metric,C25804
+"330 Resistor, small US symbol",R19,R_0603_1608Metric,C22935
+SW_SPST Single Pole Single Throw (SPST) switch,"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24",BUTTONPAD-1x1,
+"L7805 Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252",Tension_reg1,TO-263-2,C15077
+Arduino_Pro_Micro ,U1,ArduinoProMicro,

@@ -1,0 +1,154 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Rotary_Encoder_Switch Encoder1
+U 1 1 614F3EF6
+P 5950 2800
+F 0 "Encoder1" V 5996 2570 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 5905 2570 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 5800 2960 50  0001 C CNN
+F 3 "~" H 5950 3060 50  0001 C CNN
+	1    5950 2800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5450 3300 0    50   Input ~ 0
+ENC_A
+Text GLabel 6500 3300 2    50   Input ~ 0
+ENC_B
+$Comp
+L Device:R_Small_US R2
+U 1 1 614F52E7
+P 5750 3300
+F 0 "R2" V 5545 3300 50  0000 C CNN
+F 1 "10k" V 5636 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 3300 50  0001 C CNN
+F 3 "~" H 5750 3300 50  0001 C CNN
+F 4 "C25804" H 5750 3300 50  0001 C CNN "LCSC Part Number"
+F 5 "C25804" H 5750 3300 50  0001 C CNN "LCSC"
+	1    5750 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 614F5F0B
+P 6150 3300
+F 0 "R5" V 5945 3300 50  0000 C CNN
+F 1 "10k" V 6036 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6150 3300 50  0001 C CNN
+F 3 "~" H 6150 3300 50  0001 C CNN
+F 4 "C25804" H 6150 3300 50  0001 C CNN "LCSC Part Number"
+F 5 "C25804" H 6150 3300 50  0001 C CNN "LCSC"
+	1    6150 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 614F64FF
+P 5850 3550
+F 0 "R3" H 5650 3600 50  0000 L CNN
+F 1 "10k" H 5650 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5850 3550 50  0001 C CNN
+F 3 "~" H 5850 3550 50  0001 C CNN
+F 4 "C25804" H 5850 3550 50  0001 C CNN "LCSC Part Number"
+F 5 "C25804" H 5850 3550 50  0001 C CNN "LCSC"
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 614F6D50
+P 6050 3550
+F 0 "R4" H 6118 3596 50  0000 L CNN
+F 1 "10k" H 6118 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6050 3550 50  0001 C CNN
+F 3 "~" H 6050 3550 50  0001 C CNN
+F 4 "C25804" H 6050 3550 50  0001 C CNN "LCSC Part Number"
+F 5 "C25804" H 6050 3550 50  0001 C CNN "LCSC"
+	1    6050 3550
+	1    0    0    -1  
+$EndComp
+Text GLabel 6050 2350 1    50   Input ~ 0
+ENC_SW
+Wire Wire Line
+	6050 2500 6050 2350
+Wire Wire Line
+	5850 3300 5850 3100
+Wire Wire Line
+	6050 3300 6050 3100
+Wire Wire Line
+	5850 3300 5850 3450
+Connection ~ 5850 3300
+Wire Wire Line
+	6050 3450 6050 3300
+Connection ~ 6050 3300
+Wire Wire Line
+	5850 3650 5850 3700
+Wire Wire Line
+	5850 3700 5950 3700
+Wire Wire Line
+	6050 3700 6050 3650
+Text GLabel 5950 3800 3    50   Input ~ 0
+VCC
+Wire Wire Line
+	5950 3800 5950 3700
+Connection ~ 5950 3700
+Wire Wire Line
+	5950 3700 6050 3700
+Text GLabel 5950 3100 3    50   Input ~ 0
+GND
+Text GLabel 5550 3100 1    50   Input ~ 0
+GND
+$Comp
+L Device:C_Small C_enc_1
+U 1 1 614F8A1E
+P 5550 3200
+F 0 "C_enc_1" H 5950 2950 50  0000 R CNN
+F 1 "10nF" H 5950 3050 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5550 3200 50  0001 C CNN
+F 3 "~" H 5550 3200 50  0001 C CNN
+F 4 "C57112" H 5550 3200 50  0001 C CNN "LCSC Part Number"
+F 5 "C57112" H 5550 3200 50  0001 C CNN "LCSC"
+	1    5550 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 3300 5550 3300
+Connection ~ 5550 3300
+Wire Wire Line
+	5550 3300 5650 3300
+Text GLabel 6350 3100 1    50   Input ~ 0
+GND
+$Comp
+L Device:C_Small C_enc_2
+U 1 1 614FAA0A
+P 6350 3200
+F 0 "C_enc_2" H 6200 3000 50  0000 R CNN
+F 1 "10nF" H 6200 3100 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 3200 50  0001 C CNN
+F 3 "~" H 6350 3200 50  0001 C CNN
+F 4 "C57112" H 6350 3200 50  0001 C CNN "LCSC Part Number"
+F 5 "C57112" H 6350 3200 50  0001 C CNN "LCSC"
+	1    6350 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 3300 6350 3300
+Connection ~ 6350 3300
+Wire Wire Line
+	6350 3300 6500 3300
+Text GLabel 5850 2500 1    50   Input ~ 0
+GND
+$EndSCHEMATC

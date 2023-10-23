@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Faduino-1-rescue)(type Legacy)(uri ${KIPRJMOD}/Faduino-1-rescue.lib)(options "")(descr ""))
+)

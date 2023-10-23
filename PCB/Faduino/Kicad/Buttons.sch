@@ -1,0 +1,671 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:CD74HC4067M_2 Mux_1
+U 1 1 6142CFDB
+P 5100 2900
+F 0 "Mux_1" V 5054 3680 50  0000 L CNN
+F 1 "CD74HC4067M_2" V 5145 3680 50  0000 L CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6000 1900 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 4750 3750 50  0001 C CNN
+F 4 "C98457" H 5100 2900 50  0001 C CNN "LCSC Part Number"
+F 5 "C98457" H 5100 2900 50  0001 C CNN "LCSC"
+	1    5100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 6142FA35
+P 1900 1300
+F 0 "SW1" H 1900 1535 50  0000 C CNN
+F 1 "SW_SPST" H 1900 1444 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 1900 1300 50  0001 C CNN
+F 3 "~" H 1900 1300 50  0001 C CNN
+	1    1900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 6143153B
+P 2600 1300
+F 0 "SW2" H 2600 1535 50  0000 C CNN
+F 1 "SW_SPST" H 2600 1444 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 2600 1300 50  0001 C CNN
+F 3 "~" H 2600 1300 50  0001 C CNN
+	1    2600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 614337A4
+P 3300 1300
+F 0 "SW3" H 3300 1535 50  0000 C CNN
+F 1 "SW_SPST" H 3300 1444 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 3300 1300 50  0001 C CNN
+F 3 "~" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 614337AA
+P 4000 1300
+F 0 "SW4" H 4000 1535 50  0000 C CNN
+F 1 "SW_SPST" H 4000 1444 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 4000 1300 50  0001 C CNN
+F 3 "~" H 4000 1300 50  0001 C CNN
+	1    4000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 614350BE
+P 1900 1950
+F 0 "SW5" H 1900 2185 50  0000 C CNN
+F 1 "SW_SPST" H 1900 2094 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 1900 1950 50  0001 C CNN
+F 3 "~" H 1900 1950 50  0001 C CNN
+	1    1900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW6
+U 1 1 614350C4
+P 2600 1950
+F 0 "SW6" H 2600 2185 50  0000 C CNN
+F 1 "SW_SPST" H 2600 2094 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 2600 1950 50  0001 C CNN
+F 3 "~" H 2600 1950 50  0001 C CNN
+	1    2600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 614350CA
+P 3300 1950
+F 0 "SW7" H 3300 2185 50  0000 C CNN
+F 1 "SW_SPST" H 3300 2094 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 3300 1950 50  0001 C CNN
+F 3 "~" H 3300 1950 50  0001 C CNN
+	1    3300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW8
+U 1 1 614350D0
+P 4000 1950
+F 0 "SW8" H 4000 2185 50  0000 C CNN
+F 1 "SW_SPST" H 4000 2094 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 4000 1950 50  0001 C CNN
+F 3 "~" H 4000 1950 50  0001 C CNN
+	1    4000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW11
+U 1 1 61438A62
+P 1900 3550
+F 0 "SW11" H 1900 3785 50  0000 C CNN
+F 1 "SW_SPST" H 1900 3694 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 1900 3550 50  0001 C CNN
+F 3 "~" H 1900 3550 50  0001 C CNN
+	1    1900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW12
+U 1 1 61438A68
+P 2600 3550
+F 0 "SW12" H 2600 3785 50  0000 C CNN
+F 1 "SW_SPST" H 2600 3694 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 2600 3550 50  0001 C CNN
+F 3 "~" H 2600 3550 50  0001 C CNN
+	1    2600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW13
+U 1 1 61438A6E
+P 3300 3550
+F 0 "SW13" H 3300 3785 50  0000 C CNN
+F 1 "SW_SPST" H 3300 3694 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 3300 3550 50  0001 C CNN
+F 3 "~" H 3300 3550 50  0001 C CNN
+	1    3300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW14
+U 1 1 61438A74
+P 4000 3550
+F 0 "SW14" H 4000 3785 50  0000 C CNN
+F 1 "SW_SPST" H 4000 3694 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 4000 3550 50  0001 C CNN
+F 3 "~" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW15
+U 1 1 61438A7A
+P 1900 4200
+F 0 "SW15" H 1900 4435 50  0000 C CNN
+F 1 "SW_SPST" H 1900 4344 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 1900 4200 50  0001 C CNN
+F 3 "~" H 1900 4200 50  0001 C CNN
+	1    1900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW16
+U 1 1 61438A80
+P 2600 4200
+F 0 "SW16" H 2600 4435 50  0000 C CNN
+F 1 "SW_SPST" H 2600 4344 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 2600 4200 50  0001 C CNN
+F 3 "~" H 2600 4200 50  0001 C CNN
+	1    2600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW17
+U 1 1 61438A86
+P 3300 4200
+F 0 "SW17" H 3300 4435 50  0000 C CNN
+F 1 "SW_SPST" H 3300 4344 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 3300 4200 50  0001 C CNN
+F 3 "~" H 3300 4200 50  0001 C CNN
+	1    3300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW18
+U 1 1 61438A8C
+P 4000 4200
+F 0 "SW18" H 4000 4435 50  0000 C CNN
+F 1 "SW_SPST" H 4000 4344 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 4000 4200 50  0001 C CNN
+F 3 "~" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW9
+U 1 1 61439132
+P 4250 5200
+F 0 "SW9" H 4250 5435 50  0000 C CNN
+F 1 "SW_SPST" H 4250 5344 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 4250 5200 50  0001 C CNN
+F 3 "~" H 4250 5200 50  0001 C CNN
+	1    4250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW10
+U 1 1 6143953B
+P 4250 5850
+F 0 "SW10" H 4250 6085 50  0000 C CNN
+F 1 "SW_SPST" H 4250 5994 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 4250 5850 50  0001 C CNN
+F 3 "~" H 4250 5850 50  0001 C CNN
+	1    4250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW19
+U 1 1 6143B4E4
+P 2250 5200
+F 0 "SW19" H 2250 5435 50  0000 C CNN
+F 1 "SW_SPST" H 2250 5344 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 2250 5200 50  0001 C CNN
+F 3 "~" H 2250 5200 50  0001 C CNN
+	1    2250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW20
+U 1 1 6143B4EA
+P 2950 5200
+F 0 "SW20" H 2950 5435 50  0000 C CNN
+F 1 "SW_SPST" H 2950 5344 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 2950 5200 50  0001 C CNN
+F 3 "~" H 2950 5200 50  0001 C CNN
+	1    2950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW21
+U 1 1 6143B4F0
+P 3650 5200
+F 0 "SW21" H 3650 5435 50  0000 C CNN
+F 1 "SW_SPST" H 3650 5344 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 3650 5200 50  0001 C CNN
+F 3 "~" H 3650 5200 50  0001 C CNN
+	1    3650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW22
+U 1 1 6143B4F6
+P 2250 5850
+F 0 "SW22" H 2250 6085 50  0000 C CNN
+F 1 "SW_SPST" H 2250 5994 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 2250 5850 50  0001 C CNN
+F 3 "~" H 2250 5850 50  0001 C CNN
+	1    2250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW23
+U 1 1 6143B4FC
+P 2950 5850
+F 0 "SW23" H 2950 6085 50  0000 C CNN
+F 1 "SW_SPST" H 2950 5994 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 2950 5850 50  0001 C CNN
+F 3 "~" H 2950 5850 50  0001 C CNN
+	1    2950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW24
+U 1 1 6143B502
+P 3650 5850
+F 0 "SW24" H 3650 6085 50  0000 C CNN
+F 1 "SW_SPST" H 3650 5994 50  0000 C CNN
+F 2 "4Squared:rubber_pad_sw_5" H 3650 5850 50  0001 C CNN
+F 3 "~" H 3650 5850 50  0001 C CNN
+	1    3650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1300 1500 1300
+Wire Wire Line
+	1500 1300 1500 1650
+Wire Wire Line
+	1500 6250 2050 6250
+Wire Wire Line
+	3450 6250 3450 5850
+Wire Wire Line
+	2750 5850 2700 5850
+Wire Wire Line
+	2700 5850 2700 6250
+Connection ~ 2700 6250
+Wire Wire Line
+	2700 6250 3450 6250
+Wire Wire Line
+	2050 5850 2050 6250
+Connection ~ 2050 6250
+Wire Wire Line
+	2050 6250 2700 6250
+Wire Wire Line
+	3450 5200 3450 5500
+Wire Wire Line
+	3450 5500 2750 5500
+Connection ~ 1500 5500
+Wire Wire Line
+	1500 5500 1500 6250
+Wire Wire Line
+	2050 5200 2050 5500
+Connection ~ 2050 5500
+Wire Wire Line
+	2050 5500 1500 5500
+Wire Wire Line
+	2750 5200 2750 5500
+Connection ~ 2750 5500
+Wire Wire Line
+	2750 5500 2050 5500
+Wire Wire Line
+	3800 4200 3800 4550
+Wire Wire Line
+	3800 4550 3100 4550
+Connection ~ 1500 4550
+Wire Wire Line
+	1500 4550 1500 5500
+Wire Wire Line
+	1700 4200 1700 4550
+Connection ~ 1700 4550
+Wire Wire Line
+	1700 4550 1500 4550
+Wire Wire Line
+	2400 4200 2400 4550
+Connection ~ 2400 4550
+Wire Wire Line
+	2400 4550 1700 4550
+Wire Wire Line
+	3100 4200 3100 4550
+Connection ~ 3100 4550
+Wire Wire Line
+	3100 4550 2400 4550
+Wire Wire Line
+	3800 3550 3800 3850
+Wire Wire Line
+	3800 3850 3100 3850
+Connection ~ 1500 3850
+Wire Wire Line
+	1500 3850 1500 4550
+Wire Wire Line
+	1700 3550 1700 3850
+Connection ~ 1700 3850
+Wire Wire Line
+	1700 3850 1500 3850
+Wire Wire Line
+	2400 3550 2400 3850
+Connection ~ 2400 3850
+Wire Wire Line
+	2400 3850 1700 3850
+Wire Wire Line
+	3100 3550 3100 3850
+Connection ~ 3100 3850
+Wire Wire Line
+	3100 3850 2400 3850
+Wire Wire Line
+	3800 1950 3800 2300
+Wire Wire Line
+	3800 2300 3100 2300
+Connection ~ 1500 2300
+Wire Wire Line
+	1700 1950 1700 2300
+Connection ~ 1700 2300
+Wire Wire Line
+	1700 2300 1500 2300
+Wire Wire Line
+	2400 1950 2400 2300
+Connection ~ 2400 2300
+Wire Wire Line
+	2400 2300 1700 2300
+Wire Wire Line
+	3100 1950 3100 2300
+Connection ~ 3100 2300
+Wire Wire Line
+	3100 2300 2400 2300
+Wire Wire Line
+	3800 1300 3800 1650
+Wire Wire Line
+	3800 1650 3100 1650
+Connection ~ 1500 1650
+Wire Wire Line
+	1500 1650 1500 2300
+Wire Wire Line
+	2400 1300 2400 1650
+Connection ~ 2400 1650
+Wire Wire Line
+	2400 1650 1500 1650
+Wire Wire Line
+	3100 1300 3100 1650
+Connection ~ 3100 1650
+Wire Wire Line
+	3100 1650 2400 1650
+Wire Wire Line
+	4200 1300 5650 1300
+Wire Wire Line
+	5650 1300 5650 2400
+Wire Wire Line
+	5550 2400 5550 1450
+Wire Wire Line
+	5550 1450 3500 1450
+Wire Wire Line
+	3500 1450 3500 1300
+Wire Wire Line
+	2800 1300 2800 1500
+Wire Wire Line
+	2800 1500 5450 1500
+Wire Wire Line
+	5450 1500 5450 2400
+Wire Wire Line
+	2100 1300 2100 1550
+Wire Wire Line
+	2100 1550 5350 1550
+Wire Wire Line
+	5350 1550 5350 2400
+Wire Wire Line
+	4200 1950 5250 1950
+Wire Wire Line
+	5250 1950 5250 2400
+Wire Wire Line
+	3500 1950 3500 2100
+Wire Wire Line
+	3500 2100 5150 2100
+Wire Wire Line
+	5150 2100 5150 2400
+Wire Wire Line
+	2800 1950 2800 2150
+Wire Wire Line
+	2800 2150 5050 2150
+Wire Wire Line
+	5050 2150 5050 2400
+Wire Wire Line
+	2100 1950 2100 2200
+Wire Wire Line
+	2100 2200 4950 2200
+Wire Wire Line
+	4950 2200 4950 2400
+Wire Wire Line
+	4200 3550 4200 3650
+Wire Wire Line
+	4200 3650 5250 3650
+Wire Wire Line
+	5250 3650 5250 3400
+Wire Wire Line
+	3500 3550 3500 3700
+Wire Wire Line
+	3500 3700 5350 3700
+Wire Wire Line
+	5350 3700 5350 3400
+Wire Wire Line
+	2800 3550 2800 3750
+Wire Wire Line
+	2800 3750 5450 3750
+Wire Wire Line
+	5450 3750 5450 3400
+Wire Wire Line
+	2100 3550 2100 3800
+Wire Wire Line
+	2100 3800 5550 3800
+Wire Wire Line
+	5550 3800 5550 3400
+$Comp
+L 74xx:CD74HC4067M_2 Mux_2
+U 1 1 6142E258
+P 5200 5550
+F 0 "Mux_2" V 5154 6330 50  0000 L CNN
+F 1 "CD74HC4067M_2" V 5245 6330 50  0000 L CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6100 4550 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 4850 6400 50  0001 C CNN
+F 4 "C98457" H 5200 5550 50  0001 C CNN "LCSC Part Number"
+F 5 "C98457" H 5200 5550 50  0001 C CNN "LCSC"
+	1    5200 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4200 5750 4200
+Wire Wire Line
+	5750 4200 5750 5050
+Wire Wire Line
+	3500 4200 3500 4300
+Wire Wire Line
+	3500 4300 5650 4300
+Wire Wire Line
+	5650 4300 5650 5050
+Wire Wire Line
+	2800 4200 2800 4350
+Wire Wire Line
+	2800 4350 5550 4350
+Wire Wire Line
+	5550 4350 5550 5050
+Wire Wire Line
+	2100 4200 2100 4400
+Wire Wire Line
+	2100 4400 5450 4400
+Wire Wire Line
+	5450 4400 5450 5050
+Wire Wire Line
+	2450 5200 2450 4600
+Wire Wire Line
+	2450 4600 5350 4600
+Wire Wire Line
+	5350 4600 5350 5050
+Wire Wire Line
+	3150 5200 3150 4650
+Wire Wire Line
+	3150 4650 5250 4650
+Wire Wire Line
+	5250 4650 5250 5050
+Wire Wire Line
+	3850 5200 3850 4700
+Wire Wire Line
+	3850 4700 5150 4700
+Wire Wire Line
+	5150 4700 5150 5050
+Wire Wire Line
+	3850 5850 3850 6350
+Wire Wire Line
+	3850 6350 5050 6350
+Wire Wire Line
+	5050 6350 5050 6050
+Wire Wire Line
+	3150 5850 3150 6400
+Wire Wire Line
+	3150 6400 5150 6400
+Wire Wire Line
+	5150 6400 5150 6050
+Wire Wire Line
+	2450 5850 2450 6450
+Wire Wire Line
+	2450 6450 5250 6450
+Wire Wire Line
+	5250 6450 5250 6050
+Wire Wire Line
+	1300 1650 1500 1650
+Wire Wire Line
+	5750 3400 5750 3450
+Wire Wire Line
+	5750 3450 6000 3450
+$Comp
+L Device:C_Small C_mux_1
+U 1 1 614C1D00
+P 6000 3550
+F 0 "C_mux_1" H 6092 3596 50  0000 L CNN
+F 1 "100nF" H 6092 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 3550 50  0001 C CNN
+F 3 "~" H 6000 3550 50  0001 C CNN
+F 4 "C14663" H 6000 3550 50  0001 C CNN "LCSC Part Number"
+F 5 "C14663" H 6000 3550 50  0001 C CNN "LCSC"
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 3450
+Wire Wire Line
+	6000 3450 6150 3450
+Wire Wire Line
+	5850 6050 5850 6100
+Wire Wire Line
+	5850 6100 6100 6100
+$Comp
+L Device:C_Small C_mux_2
+U 1 1 614C2F47
+P 6100 6200
+F 0 "C_mux_2" H 6192 6246 50  0000 L CNN
+F 1 "100nF" H 6192 6155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6100 6200 50  0001 C CNN
+F 3 "~" H 6100 6200 50  0001 C CNN
+F 4 "C14663" H 6100 6200 50  0001 C CNN "LCSC Part Number"
+F 5 "C14663" H 6100 6200 50  0001 C CNN "LCSC"
+	1    6100 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 6100
+Wire Wire Line
+	6100 6100 6250 6100
+Text GLabel 4950 5050 1    50   Input ~ 0
+S0
+Text GLabel 4850 5050 1    50   Input ~ 0
+S1
+Text GLabel 4850 6050 3    50   Input ~ 0
+S2
+Text GLabel 4750 6050 3    50   Input ~ 0
+S3
+Text GLabel 4750 3400 3    50   Input ~ 0
+S2
+Text GLabel 4650 3400 3    50   Input ~ 0
+S3
+Text GLabel 4850 2400 1    50   Input ~ 0
+S0
+Text GLabel 4750 2400 1    50   Input ~ 0
+S1
+Text GLabel 4650 2400 1    50   Input ~ 0
+GND
+Text GLabel 4850 3400 3    50   Input ~ 0
+GND
+Text GLabel 5050 3400 3    50   Input ~ 0
+GND
+Text GLabel 6100 6300 3    50   Input ~ 0
+GND
+Text GLabel 4950 6050 3    50   Input ~ 0
+GND
+Text GLabel 4750 5050 1    50   Input ~ 0
+GND
+Text GLabel 6250 6100 2    50   Input ~ 0
+VCC
+Text GLabel 6150 3450 2    50   Input ~ 0
+VCC
+Text GLabel 1300 1650 0    50   Input ~ 0
+GND
+Text GLabel 5750 2400 1    50   Input ~ 0
+SIG_1
+Text GLabel 5850 5050 1    50   Input ~ 0
+SIG_2
+Text GLabel 5650 3400 3    50   Input ~ 0
+ENC_SW
+NoConn ~ 5050 5050
+Text GLabel 6000 3650 3    50   Input ~ 0
+GND
+Wire Wire Line
+	1500 2300 1500 3850
+Wire Wire Line
+	3450 5500 4050 5500
+Wire Wire Line
+	4050 5500 4050 5200
+Connection ~ 3450 5500
+Wire Wire Line
+	3450 6250 4050 6250
+Wire Wire Line
+	4050 6250 4050 5850
+Connection ~ 3450 6250
+Wire Wire Line
+	4450 5200 4550 5200
+Wire Wire Line
+	4550 5200 4550 6500
+Wire Wire Line
+	4550 6500 5350 6500
+Wire Wire Line
+	5350 6500 5350 6050
+Wire Wire Line
+	4450 5850 4450 6550
+Wire Wire Line
+	4450 6550 5450 6550
+Wire Wire Line
+	5450 6550 5450 6050
+Text GLabel 4950 3400 3    50   Input ~ 0
+GND
+Text GLabel 5150 3400 3    50   Input ~ 0
+GND
+Text GLabel 5550 6050 3    50   Input ~ 0
+GND
+Text GLabel 5650 6050 3    50   Input ~ 0
+GND
+Text GLabel 5750 6050 3    50   Input ~ 0
+GND
+$EndSCHEMATC
